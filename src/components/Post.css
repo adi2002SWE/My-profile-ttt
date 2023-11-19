@@ -1,0 +1,62 @@
+.post-desc {
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.tilte-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.thumbsup {
+    color: rgb(200, 174, 8);
+}
+
+.thumbsup:hover {
+    cursor: pointer;
+    color: rgb(156, 157, 157);
+}
+
+.by-tag {
+    display: flex;
+}
+
+.by-tag h5 {
+    padding: 3px;
+}
+
+.name {
+    color: rgb(60, 60, 245);
+}
+
+.views {
+    font-weight: 400;
+    margin-left: 2.5rem;
+}
+
+.hr-tag {
+    border: 1px solid rgb(221, 221, 221);
+}
+@media only screen and (max-width: 768px) {
+    .tilte-icon {
+        align-items: flex-start;
+    }
+
+    .thumbsup {
+        margin-top: 1rem;
+    }
+    .by-tag{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .views {
+        margin-left: 0;
+        margin-top: 1.3rem;
+    }
+}

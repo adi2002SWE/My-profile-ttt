@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import Profile from './components/Profile';
+import Post from './components/Post';
 import './App.css';
-
+import comments from './data/comments';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header/>
+      <Profile />
+      <div className='post'>
+        <h2>134 Posts</h2>
+        <hr className='post-hr'/>
+      </div>
+      {comments.map((val)=>
+        <Post title={val.title}
+          desc={val.desc}
+          name={val.name}
+          nameBy={val.nameBy}
+          views={val.views}
+        />
+      )}
     </div>
   );
 }

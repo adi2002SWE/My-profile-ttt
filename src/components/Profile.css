@@ -1,0 +1,133 @@
+.profile-header {
+    text-align: center;
+    background-color: #fffefe;
+}
+
+.profile-cover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Profile-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-top: -15px;
+}
+
+.profile-buttons {
+    margin-left: 1rem;
+    display: flex;
+}
+.name-head-icon{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.badge-icon{
+    color:#c613f8;
+}
+.profile-buttons label {
+    padding: 0.2rem;
+    font-weight: 500;
+    font-size: 13px;
+    color: #595858;
+}
+
+.follow-button {
+    color: hsl(0, 0%, 52%);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    margin: 0 5px;
+    border: 2px solid rgb(183, 183, 183);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.profile-avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -38px;
+    border: 2px solid #585858;
+}
+
+.Followers-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-body {
+    padding: 30px;
+}
+
+.profile-body a {
+    color: #3498db;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-body a:hover {
+    text-decoration: underline;
+}
+
+.profile-body header {
+    font-size: 30px;
+}
+.icons h5{
+    color: black;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.icons div{
+    padding: 1rem;
+}
+.star-icon {
+    color: rgb(20, 157, 169);
+    display: flex;
+    align-items: center;
+}
+.thumb-icon:hover{
+    cursor: pointer;
+    color:rgb(156, 157, 157);
+}
+.thumb-icon {
+    color: rgb(200, 174, 8);
+    display: flex;
+    align-items: center;
+}
+.eye-icon {
+    color: rgb(92, 93, 93);
+    display: flex;
+    align-items: center;
+}
+.heart-icon:hover{
+    cursor: pointer;
+    color:rgb(156, 157, 157);
+}
+.heart-icon {
+    color: rgb(193, 23, 23);
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    .Profile-section {
+        flex-direction: row;
+        margin-left: 2rem;
+    }
+    .profile-buttons {
+        margin: 1rem 0;
+    }
+    .profile-buttons label {
+        margin: 0.5rem;
+    }
+    .profile-body header{
+        font-size: 18px;
+    }
+}
