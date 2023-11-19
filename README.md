@@ -1,6 +1,6 @@
-Application is deployed on netlify : https://myprofile-ttt.netlify.app/
-
 # Getting Started with Create React App
+
+Application is deployed on netlify : https://myprofile-ttt.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
