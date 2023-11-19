@@ -63,8 +63,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+Application is deployed on netlify : https://myprofile-ttt.netlify.app/
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Different component used 
+
+1.App : - This is the component which combined all the others components together.
+
+2.Header : -  This component contains the header part of the page like logo of the company & one navigation named courses.
+
+3.Profile : - This component contains the profile description of a person with his/her photo , name , no. of followers/following with their link id and the different react icons used to show the likes, views of that pages.
+
+4.Post : - This component contains the post , the main heading of the post, the dexcription & the date & views.
+
+
+Application is deployed on netlify :  https://myprofile-ttt.netlify.app/
